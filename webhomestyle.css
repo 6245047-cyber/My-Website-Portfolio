@@ -1,0 +1,19 @@
+.center-align{
+	text-align: center;
+}
+
+
+.title{
+	font-weight: bold;
+}
+
+.padded{
+	padded-left: 20px;
+}
+.right-align{
+	text-align: left;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}

@@ -1,0 +1,31 @@
+Choose one of the following animals...
+
+Alligator
+Giant Panda
+Toucan
+Portuguese Man-of-War
+Dodo Bird
+...and write a brief page on it. Include a couple headings, modest 
+description, hunt down a couple pictures and include a few links to
+ other relevant web sites. Find a nice background image and alter the 
+text and link colors a little if you wish. At the bottom of the page 
+include an email image link to back to yourself... find one of those 
+cheesy little folding envelope animations or whip something up yourself. 
+Place all the images in a sub-directory named "images". 
+
+I know I take a little liberty with you when I suggest "finding" this 
+or "hunting down" that. Understand that part of your web authoring 
+experience will include tapping into the enormous free resources 
+available on the Internet. Learning how to look around for things
+ will greatly add to your ability. While most of what you will find
+ is public domain or completely free for the taking, some artwork comes
+ with conditions for re-use, and a few folks would rather you not use 
+their stuff at all. As part of your training, I want you to get a little
+ experience tracking down a particular something that you need... like
+ a nice background image or an image of a Dodo Bird. One source of leads
+ is the Web Resources section. There you will find links to many types 
+of resources on the Internet.
+
+Use: http://validator.w3.org/
+To Validate your site.
+If there are any errors, correct them so that your document validates.

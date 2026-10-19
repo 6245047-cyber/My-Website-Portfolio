@@ -1,0 +1,26 @@
+
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Set up colour palette and fonts using variables */
+
+:root {
+  --primary: #1ed4ce;
+  --onprimary:#ffffff;
+  --secondary: #00d0ff;
+  --onsecondary:#ffffff;
+  --tertiary:#ffffff;
+  --ontertiary:#ffffff;
+  --page:#94ebff;
+  --onpage:#ffffff;
+  --detail: #5ce1ff;
+  --detail2: #ffffff;
+
+  --body-font: 1rem 'Momo Trust Display', sans-serif;
+  --header-font: lighter 3rem 'Momo Trust Display', cursive;
+  --title-font: lighter 2rem 'Momo Trust Display', cursive;
+  --quote-font: lighter 1.5rem 'Momo Trust Display', cursive;
+}

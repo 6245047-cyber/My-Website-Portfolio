@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Title shown in web browsers-->
+    <title>Old Consoles</title>
+
+    <!-- Import fonts from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+
+    
+    <!-- Include CSS style file -->
+
+     <link href="oldconsolestyle.css" rel="stylesheet" type="text/css" /> 
+     <link href="animation.css" rel="stylesheet" type="text/css" /> 
+     <link href="default.css" rel="stylesheet" type="text/css" /> 
+  </head>
+
+  <body>
+
+     <audio id="background-music" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+    </audio>
+
+  <script>
+    const music = document.getElementById("background-music");
+
+    function playMusic() {
+      music.play().catch((error) => {
+        console.log("Music playback was blocked:", error);
+      });
+    }
+
+  // Browsers usually require the user to interact with the page first
+  document.addEventListener("pointerdown", playMusic, { once: true });
+  document.addEventListener("keydown", playMusic, { once: true });
+</script>
+
+
+    <!-- The page header code goes here -->
+    <header class="border-bottom secondary">
+      <h1>Old Consoles</h1>
+      <h3>There are plenty of old consoles that are well known and not. I would like to show you a few.</h3>
+      <h5>There are four topics about four different consoles (Mostly Nintendo). </h5>
+    </header>
+
+    <!-- The main content for the web page goes between the main tags -->
+    <main>
+      <section>
+      <h1>Nintendo Wii</h1>
+      <p>The Nintendo Wii is probably one of the most well known consoles. It's 20 years old! If you don't know it, here's a photo.</p>
+      <p>The Nintendo Wii sold an amazing 101.63 million units!</p>
+      <a href="https://en.wikipedia.org/wiki/Wii">
+        <img src="wii.png" alt="Description of the image." width="500" height="500" style="margin-left: 300px;">
+      </a>
+      <p>It was a console made by Nintendo that used mostly motion controls for games. Speaking of games for the Nintendo Wii there are 2,629 games for it, some released this year!</p>
+      <p>The top 3 best selling Wii games are Wii Sports, Mario Kart Wii and Wii Sports Resort.</p>
+      </section>
+
+
+      <section>
+      <h1>Sega Dreamcast</h1>
+      <p>The Sega Dreamcast released in 9.9.1999 is not as well known like the Wii.</p>
+      <p>The Sega Dreamcast is the last sega console ever made. (Atleast for right now.)</p>
+      <a href="https://en.wikipedia.org/wiki/Dreamcast">
+        <img src="dreamcast.png" alt="Description of the image." width="700" height="400" style="margin-left: 200px;">
+      </a>
+      <p>It was a console made by Sega that was the first ever 128-bit console and also introduced online gaming!.</p>
+      <p>The top 3 best selling Dreamcast games are Sonic Adventure, Resident Evil Code: Veronica and Soulcalibur.</p>
+      </section>
+
+
+      <section>
+      <h1>Nintendo Wii U</h1>
+      <p>The Nintendo Wii U is the sequel to the Wii.</p>
+      <p>The Nintendo Wii U didn't sell very well but it's one of my favorite consoles due to it's personallity.</p>
+      <a href="https://en.wikipedia.org/wiki/Wii U">
+        <img src="wiiu.png" alt="Description of the image." width="700" height="400" style="margin-left: 200px;">
+      </a>
+      <p>Like the Wii it used motion controls but it also used the Wii U Gamepad. The Wii U gamepad was a tablet like controller similar to the Nintendo Switch.</p>
+      <p>The top 3 best selling Wii U games are Mario Kart 8, Super Mario 3D World and New Super Mario Bros. U.</p>
+      </section>
+
+      
+      <section>
+      <h1>Nintendo Virtual Boy</h1>
+      <p>Last is the Nintendo Virtual Boy.</p>
+      <p>It was a red and black virtual reality system made by Nintendo and sold horribly do to it's colors and the fact it gave headaches.</p>
+      <a href="https://en.wikipedia.org/wiki/Virtual Boy">
+        <img src="virtualboy.png" alt="Description of the image." width="500" height="600" style="margin-left: 250px;">
+      </a>
+      <p>It has an interesting story behind it being developed by a company called Reflection Technology aswell as Nintendo. It worked by moving 2, 1 x 224 pixel LEDs really fast in the player's eyes with different levels of brightness making a 256 x 224 pixel game on screen.</p>
+      <p>The top 3 best selling Virtual Boy games are Virtual Boy Wario Land, Red Alarm and Galactic Pinball.</p>
+      </section>
+
+      <section>
+      <p><h2>There is no other topics currently for right now. Please check on the webpage at a later time.</h2></p>
+      </section>
+      <a href="portfolio.html"><h1>Back</h1></a>
+    </main>
+
+    <!-- Footer code goes here -->ss
+    <footer class="border-top secondary">
+      <p>Webpage by Logan-Chase Blass, 2026</p>
+    </footer>
+  </body>
+</html>
+
